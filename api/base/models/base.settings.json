@@ -1,0 +1,20 @@
+{
+  "info": {
+    "name": "Base"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "nesteds": {
+      "collection": "nested",
+      "via": "base"
+    }
+  },
+  "connection": "default",
+  "collectionName": "bases"
+}

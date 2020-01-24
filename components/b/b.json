@@ -1,0 +1,14 @@
+{
+  "info": {
+    "name": "B",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "number_field": {
+      "type": "integer"
+    }
+  },
+  "connection": "default",
+  "collectionName": "components_b_bs"
+}

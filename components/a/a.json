@@ -1,0 +1,14 @@
+{
+  "info": {
+    "name": "A",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "text_field": {
+      "type": "string"
+    }
+  },
+  "connection": "default",
+  "collectionName": "components_a_as"
+}

@@ -1,0 +1,27 @@
+{
+  "connection": "default",
+  "collectionName": "nesteds",
+  "info": {
+    "name": "Nested"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "components": {
+      "type": "dynamiczone",
+      "components": [
+        "a.a",
+        "b.b"
+      ]
+    },
+    "base": {
+      "via": "nesteds",
+      "model": "base"
+    }
+  }
+}

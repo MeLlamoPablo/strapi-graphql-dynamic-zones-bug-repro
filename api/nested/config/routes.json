@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/nesteds",
+      "handler": "nested.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/nesteds/count",
+      "handler": "nested.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/nesteds/:id",
+      "handler": "nested.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/nesteds",
+      "handler": "nested.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/nesteds/:id",
+      "handler": "nested.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/nesteds/:id",
+      "handler": "nested.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
